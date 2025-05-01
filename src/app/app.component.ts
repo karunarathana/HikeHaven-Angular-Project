@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { AuthComponent } from '../components/login/Auth.componant';
+import { DashboardComponent } from '../components/dashboard/dashboard.component';
 
 @Component({
+  standalone : true,
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [AuthComponent,DashboardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
