@@ -1,0 +1,11 @@
+<p class="bg-amber-200">dashboard works! {{title}}</p>
+<p>{{isDissable}}</p>
+<p>Greeting Message{{message}}</p>
+<button (click)='returnGreetingText("Srilanka")'>Click</button>
+
+<input [(ngModel)]="username" placeholder="Enter your name">
+<p>Hello, {{ username }}!</p>
+
+<div *ngFor="let item of fruits">
+    {{ item }}
+</div>

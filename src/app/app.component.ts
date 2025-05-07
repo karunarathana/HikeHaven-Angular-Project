@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { AuthComponent } from '../components/login/Auth.componant';
-import { DashboardComponent } from '../components/dashboard/dashboard.component';
+import { DashboardComponent } from '../components/dashboard/components/dashboard.component';
 
 @Component({
   standalone : true,
